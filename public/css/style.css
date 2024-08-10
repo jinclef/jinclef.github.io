@@ -98,8 +98,8 @@ code {
 	flex: 0 0 220px;
 	padding: 15px;
 	z-index: 1;
-	background-color: #222;
-	color: #fff;
+	background-color: #e0fbfc;
+	color: #253237; /* 뭔지 모르겠음 */
 }
 
 .sidebar-item {
@@ -111,15 +111,16 @@ code {
 	padding-inline-start: 0px;
 }
 
-.sidebar-brand > a {
+.sidebar-brand > a { /* 카테고리 제목 */
 	font-size: 300%;
 	font-family: '365오후2시';
-	color: #fff;
+	color: #253237;
 }
 
-.lead {
+.lead { /* 제목 아래 description */
 	font-size: 120%;
-	color: #aaa;
+	margin-top: 7px;
+	color: #9db4c0;
 }
 
 .sidebar-header {
@@ -132,17 +133,17 @@ code {
 
 .nav-title {
 	font-size: 100%;
-	font-family: "Noto Sans";
+	font-family: "365오후2시";
 	text-transform: uppercase;
-	border-bottom: 1px solid gray;
-	margin-bottom: 5px;
+	border-bottom: 1px solid gray;  /* 카테고리 제목 아래 선 */
+	margin-bottom: 8px;
 }
 
 a.nav-item {
 	font-size: 120%;
-	font-family: "Noto Sans";
+	font-family: "365오후2시";
 	text-transform: capitalize;
-	color: #aaa;
+	color: #253237; /* 세부 카테고리 제목 */
 }
 
 a.nav-item:hover { color: #777; }
